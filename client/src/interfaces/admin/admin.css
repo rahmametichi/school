@@ -1,0 +1,14 @@
+.admin {
+    margin-left: 17%;
+    padding: 80px 0 12px 20px;
+    min-height: 600px;
+    background-color: #eaeef3;
+    transition: 0.3s ease all;
+}
+.admin-sidebar-closed {
+    margin-left: 0%;
+    padding: 80px 0 12px 20px;
+    min-height: 600px;
+    background-color: #eaeef3;
+    transition: 0.3s ease all;
+}

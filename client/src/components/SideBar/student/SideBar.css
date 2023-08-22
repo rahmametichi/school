@@ -1,0 +1,124 @@
+.user-panel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.user-img-circle {
+    background: #fff;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 2px;
+    border-radius: 50%;
+}
+.user-panel-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtOnline {
+    font-size: 12px;
+}
+.user-online {
+    color: #26c281;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    list-style: none;
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+}
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+.student-sidebar {
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 100%;
+    padding: 20px 0;
+    transition: 0.4s ease all;
+    transform: translateX(0);
+}
+.student-sidebar.close {
+    transform: translateX(-185%);
+    transition: 0.4s ease all;
+}
+
+.student-sidebar ul li .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    color: #444;
+    font-size: 16px;
+    position: relative;
+}
+
+.student-sidebar ul li i {
+    color: #444;
+    width: 30px;
+    font-size: 15px;
+}
+
+.student-sidebar ul li .nav-link:hover,
+.student-sidebar ul li .nav-link.active {
+    background-color: #f4f6f9;
+    border-top-color: transparent;
+    color: #4680ff;
+}
+
+.student-sidebar ul li .nav-link:hover i,
+.student-sidebar ul li .nav-link.active i {
+    color: #4680ff;
+}
+
+.student-sidebar ul li .nav-link:hover:before,
+.student-sidebar ul li .nav-link.active:before {
+    display: block;
+}
+
+.section {
+    width: calc(100% - 17%);
+    margin-left: 17%;
+    transition: all 0.5s ease;
+}
+
+.section .top_navbar {
+    background: rgb(7, 105, 185);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.section .top_navbar .hamburger .nav-link {
+    font-size: 28px;
+    color: #f4fbff;
+}
+
+.section .top_navbar .hamburger .nav-link:hover {
+    color: #a2ecff;
+}
+
+body.active .sidebar-admin {
+    left: -17%;
+}
+
+body.active .section {
+    margin-left: 0;
+    width: 100%;
+}

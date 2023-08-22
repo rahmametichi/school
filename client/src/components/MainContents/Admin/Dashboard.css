@@ -1,0 +1,83 @@
+.Alldashboard-admin {
+    margin-left: -1%;
+}
+.all-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: -14%;
+}
+.one-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 340px;
+    height: 120px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card-icon {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 74px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    color: #fff;
+}
+.info-box-text {
+    display: block;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.info-box-number {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.progress {
+    margin-top: -10px;
+    height: 0.3rem !important;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+#card-color-1 {
+    background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+#card-color-2 {
+    background: linear-gradient(45deg, #ffb64d, #ffcb80);
+}
+#card-color-3 {
+    background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+.charts-admin-dashboard {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    margin-left: 0%;
+    width: 90%;
+}
+.Bar-charts {
+    width: 99%;
+    /* height: 450px; */
+    padding: 5px;
+    /* margin-left: -3%; */
+    /* border: 1px solid black; */
+    background: #fff;
+    border-radius: 12px;
+}
+.Bar-charts canvas {
+    height: 350px !important;
+}
+.Doughnut-charts {
+    width: 450px;
+    border: 1px solid black;
+}

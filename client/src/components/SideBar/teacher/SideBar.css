@@ -1,0 +1,113 @@
+.user-panel {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.user-img-circle {
+    background: #fff;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 2px;
+    border-radius: 50%;
+}
+.user-panel-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.online-user {
+    margin-top: -10px;
+}
+.txtOnline {
+    font-size: 12px;
+}
+.user-online {
+    color: #26c281;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+
+.sidebar-menu {
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17%;
+    height: 100%;
+    padding: 20px 0;
+    transition: 0.5s ease all;
+    transform: translateX(0);
+}
+.sidebar-menu.close {
+    transform: translateX(-185%);
+    transition: 0.5s ease all;
+}
+.sidebar-menu ul li .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 13px 30px;
+    color: #444;
+    font-size: 16px;
+    position: relative;
+}
+
+.sidebar-menu ul li i {
+    color: #444;
+    width: 30px;
+    font-size: 15px;
+}
+
+.sidebar-menu ul li .nav-link:hover,
+.sidebar-menu ul li .nav-link.active {
+    background-color: #f4f6f9;
+    border-top-color: transparent;
+    color: #4680ff;
+}
+
+.sidebar-menu ul li .nav-link:hover i,
+.sidebar-menu ul li .nav-link.active i {
+    color: #4680ff;
+}
+
+.sidebar-menu ul li .nav-link:hover:before,
+.sidebar-menu ul li .nav-link.active:before {
+    display: block;
+}
+
+.section {
+    width: calc(100% - 17%);
+    margin-left: 17%;
+    transition: all 0.5s ease;
+}
+
+.section .top_navbar {
+    background: rgb(7, 105, 185);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.section .top_navbar .hamburger .nav-link {
+    font-size: 28px;
+    color: #f4fbff;
+}
+
+.section .top_navbar .hamburger .nav-link:hover {
+    color: #a2ecff;
+}
+
+body.active .sidebar-menu {
+    left: -17%;
+}
+
+body.active .section {
+    margin-left: 0;
+    width: 100%;
+}

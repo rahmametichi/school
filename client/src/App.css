@@ -1,0 +1,7 @@
+.App-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 655px;
+    transition: 0.3s ease all;
+}

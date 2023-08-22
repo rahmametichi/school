@@ -1,0 +1,96 @@
+.Score {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 66%;
+    margin-left: 23%;
+    padding: 20px 0 0 1px;
+    height: 100%;
+    background-color: #eaeef3;
+    transform: translateY(60px);
+}
+
+.table-bordered {
+    margin-left: 4%;
+}
+
+.exams-container {
+    padding: 20px;
+    width: 100%;
+    margin-left: 3.5%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border: 3px solid rgb(210, 214, 222);
+    transition: 0.3s all ease-in-out;
+}
+.Exams-class-closed {
+    padding: 20px;
+    width: 100%;
+    margin-left: 3.5%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border: 3px solid rgb(210, 214, 222);
+    transition: 0.3s all ease-in-out;
+}
+.full-Width {
+    width: 104%;
+    margin-left: -2%;
+}
+.full-closed-Width {
+    margin-left: -1.5%;
+    width: 103%;
+}
+.exams-table-head,
+.exams-table-body {
+    background-color: #fff;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+.exams-table-head {
+    font-family: sans-serif;
+    text-align: center;
+    color: #6673fc;
+    font-weight: 800;
+    cursor: pointer;
+}
+.exams-table-body {
+    text-align: center;
+    font-weight: lighter;
+}
+.exams-table-body:hover {
+    color: #4680ff;
+    cursor: pointer;
+}
+.exmas-t-body {
+    color: #333;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 2px;
+    font-family: Poppins, sans-serif;
+}
+.EX-center-field {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3px;
+}
+.s_note__loader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -12%;
+}
+.note-no-absente {
+    padding: 60px;
+    color: #3d4eff;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}

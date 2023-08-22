@@ -1,0 +1,217 @@
+.student-absente-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 307px;
+    height: 100%;
+    transition: 0.3s ease all;
+    width: 75%;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px,
+        rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    transform: translateY(91px);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    transition: 0.3s ease all;
+}
+.icons-closed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+    padding: 6px 0 0 0;
+    width: 100%;
+    transition: 0.3s ease all;
+}
+.icons > div {
+    margin-left: 10px;
+}
+.icons-closed > div {
+    margin-left: 10px;
+}
+.green {
+    color: rgb(29, 221, 29);
+    font-size: 12px;
+    margin-right: 3px;
+}
+.red {
+    color: #f01;
+    margin-right: 3px;
+    font-size: 12px;
+    height: 100%;
+}
+.yellow {
+    color: rgb(255, 238, 0);
+    margin-right: 3px;
+    font-size: 12px;
+}
+.CIRCLE {
+    border: 1px solid rgb(210, 214, 222);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.no-absente {
+    padding: 60px;
+    color: #3d4eff;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.closed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    height: 100%;
+    transition: 0.3s ease all;
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: 7%;
+}
+.closed .abs-icon {
+    font-size: 100px;
+    color: #3d4eff;
+}
+.closed .no-absente {
+    padding: 60px;
+    color: #3d4eff;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.student-absente-content .abs-icon {
+    font-size: 100px;
+    color: #3d4eff;
+}
+.student-table-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 21%;
+    width: 76%;
+    transform: translateY(69px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.student-table-header {
+    /* margin-left: -2%; */
+    /* width: 100% !important; */
+    background-color: #fff;
+    transition: 0.3s ease all;
+}
+.student-table-header-closed {
+    /* margin-left: -2%; */
+    /* width: 100% !important; */
+    background-color: #fff;
+    transition: 0.3s ease all;
+}
+.student-table-responsive {
+    width: 100%;
+    margin-left: -11%;
+    height: 100%;
+    background-color: #eaeef3;
+}
+.student-table-responsive-closed {
+    width: 100%;
+    margin-left: -11%;
+    height: 100%;
+    background-color: #eaeef3;
+}
+
+.student-table-responsive label {
+    margin-top: 40px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+/* .table {
+    margin: 40px;
+} */
+.center {
+    width: 200px;
+    text-align: center;
+    margin-top: 5%;
+}
+.centerImg {
+    width: 200px;
+    text-align: center;
+}
+
+.center-field {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.profImg {
+    width: 50px;
+    padding: 3px;
+    border: 3px solid rgb(210, 214, 222);
+    border-radius: 50% 50% 50% 50%;
+}
+.center:hover {
+    color: #4680ff;
+    cursor: pointer;
+}
+.indicate {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.student-absences-t-body {
+    color: #333;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 2px;
+    font-family: Poppins, sans-serif;
+}
+.Color {
+    font-family: sans-serif;
+    text-align: center;
+    color: #6673fc;
+    font-weight: 800;
+    cursor: pointer;
+}
+.icon-txtOnline {
+    letter-spacing: 1px;
+    line-height: 2px;
+    font-family: Poppins, sans-serif;
+}
+.student__Absences__icons {
+    cursor: pointer;
+}
+.abs__loader {
+    width: 100%;
+    margin-left: -1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

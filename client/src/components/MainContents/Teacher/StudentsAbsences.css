@@ -1,0 +1,62 @@
+.table {
+    margin: 0px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.dataTables_wrapper {
+    margin-top: 10px;
+    border: 1px solid #dee2e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+.dataTables_paginate {
+    margin-left: 200px;
+}
+.dataTables_info {
+    margin-top: 10px;
+}
+.teacher-history-absence {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    width: 81%;
+    margin-left: 18.5%;
+    transform: translateY(76px);
+}
+.card-head {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    color: #3a405b;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-head header {
+    display: inline-block;
+    padding: 11px 20px;
+    vertical-align: middle;
+    line-height: 17px;
+    font-size: 20px;
+}
+/* .form-control {
+    border: 1px solid #ccc !important;
+} */
+
+.Select-show {
+    display: none !important;
+}
+
+.teacher-history-absence td:nth-child(5) {
+    padding-left: 40px;
+}
+.teacher-history-absence th:nth-child(3) {
+    padding-left: 55px;
+}
+.teacher-history-absence th:nth-child(6) {
+    padding-left: 38px;
+}
+.teacher-history-absence td:not(:first-child) {
+    padding-top: 20px !important;
+}

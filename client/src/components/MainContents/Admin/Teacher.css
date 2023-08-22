@@ -1,0 +1,87 @@
+.teacher-view {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6%;
+    margin-left: 20%;
+    transition: 0.3s ease all;
+}
+.teacher-view-closed {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    transition: 0.3s ease all;
+}
+.teacher-pic {
+    padding: 3px;
+    border: 3px solid rgb(210, 214, 222);
+    border-radius: 50% 50% 50% 50%;
+    max-width: 112px;
+}
+.teacher-name {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+.loader-admin-teacher {
+    margin-top: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 585px;
+    width: 90%;
+}
+.card-teacher {
+    width: 344px;
+    height: 344px;
+    background-color: #fff;
+    border-radius: 10px !important;
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #deebfd !important;
+    box-shadow: -8px 12px 18px 0 #dadee8;
+    margin-right: 15px;
+}
+
+.card-body-teacher {
+    text-align: center;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 5px;
+}
+.btn-dangerr {
+    background-color: #e91e63 !important;
+    outline: 0px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    width: 100px !important;
+    height: 30px !important;
+    margin-top: -5px;
+}
+.fa-phone {
+    transform: rotate(90deg) !important;
+    font-size: 12px;
+}
+.phone a {
+    font-size: 14px;
+}
+.teach-class {
+    height: 45px;
+    overflow: hidden;
+}
+.teach-class span {
+    margin-right: 2px;
+    padding-right: 2px;
+    border-right: 1px solid blanchedalmond;
+}
+.btn-submit {
+    margin-top: -20px !important;
+}
+
+.close-circle {
+    position: absolute;
+    left: 87%;
+    top: 1%;
+    font-size: 30px;
+}
